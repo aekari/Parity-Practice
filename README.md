@@ -1,6 +1,6 @@
 # Parity Practice
 
-An ATM simulator app where you can cycle through different menus with user keyboard input to withdraw, deposit, and change your saved name and address. View the live site [here](https://aekari.github.io/Parity-Practice/).
+Parity is a fundamental concept in mathematics. The parity of an integer is its attribute of being even or odd. View the live site [here](https://aekari.github.io/Parity-Practice/).
 ## Technologies Used
 
 ![](https://img.shields.io/badge/-HTML-black.svg?style=flat-square&logo=html5&colorB=000)
