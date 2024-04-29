@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Even or Odd</title>
+</head>
+
+<body>
+    <header>
+        <h1>Parity Practice</h1>
+        <h3>Use this site to practice your parity knowlege!<br>Parity is a fundamental concept in mathematics. The parity of an integer is its attribute of being even or odd.</h3>
+    </header>
+    <main>
+        <p align="center">Is the solution for the following equation even or odd?</p>
+        <section class="mainFrame">
+            <span class="equation"></span>
+            <span class="result-box">
+                <p></p>
+            </span> <!-- Outlined box -->
+            <br><br>
+            <button id="evenButton">EVEN</button>
+            <button id="oddButton">ODD</button>
+        </section>
+        <section class="counterWrapper">
+            <span id="counter">0 Correct, 0 Incorrect</span>
+        </section>
+    </main>
+    <section class="subSection">
+        <!-- Cheatsheet details here -->
+        <h3>Addition</h3>
+        <ul>
+            <li><span class="evenStyling">Even</span> + <span class="evenStyling">Even</span> = <span class="evenStyling">Even</span></li>
+            <li><span class="evenStyling">Even</span> + <span class="oddStyling">Odd</span> = <span class="oddStyling">Odd</span></li>
+            <li><span class="oddStyling">Odd</span> + <span class="oddStyling">Odd</span> = <span class="evenStyling">Even</span></li>
+        </ul>
+        <h3>Subtraction</h3>
+        <ul>
+            <li><span class="evenStyling">Even</span> - <span class="evenStyling">Even</span> = <span class="evenStyling">Even</span></li>
+            <li><span class="evenStyling">Even</span> - <span class="oddStyling">Odd</span> = <span class="oddStyling">Odd</span></li>
+            <li><span class="oddStyling">Odd</span> - <span class="evenStyling">Even</span> = <span class="oddStyling">Odd</span></li>
+            <li><span class="oddStyling">Odd</span> - <span class="oddStyling">Odd</span> = <span class="evenStyling">Even</span></li>
+        </ul>
+        <h3>Multiplication</h3>
+        <ul>
+            <li><span class="evenStyling">Even</span> x <span class="evenStyling">Even</span> = <span class="evenStyling">Even</span></li>
+            <li><span class="evenStyling">Even</span> x <span class="oddStyling">Odd</span> = <span class="evenStyling">Even</span></li>
+            <li><span class="oddStyling">Odd</span> x <span class="oddStyling">Odd</span> = <span class="oddStyling">Odd</span></li>
+        </ul>
+        <h3>Division</h3>
+        <p>When you divide whole numbers, you might not always get another whole number. For instance, 1 divided by 4 equals 1/4, which isn't even or odd because those terms only apply to whole numbers.</p>
+
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>

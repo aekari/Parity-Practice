@@ -1,0 +1,105 @@
+/* General Layout and Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+header {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px auto;
+    text-align: center;
+}
+
+main {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Equation and Buttons Styling */
+.mainFrame {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.equation {
+    font-size: 2em;
+    color: #555;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.result-box {
+    display: inline-block;
+    width: 60px;
+    height: 1.5em;
+    border: .3em solid #555;
+    background-color: white;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Counter Styling */
+#counter {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.counterWrapper {
+    text-align: center;
+}
+
+
+.subSection {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Accordion for Cheatsheet */
+
+.accordion-content {
+    padding: 0 18px;
+    background-color: white;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+/* Cheatsheet even and odd text stylings */
+
+.evenStyling {
+    color: #FF5BA9;
+    font-weight: bold;
+}
+
+.oddStyling {
+    color: #007bff;
+    font-weight: bold;
+}
